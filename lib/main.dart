@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'app/pages/blinkit_money_screen.dart';
 
 void main() {
-  // Sets the status bar to light icons (since our background is dark)
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(statusBarBrightness: Brightness.dark),
   );
